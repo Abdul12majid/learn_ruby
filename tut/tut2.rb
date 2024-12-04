@@ -31,10 +31,22 @@ nums_ = Array.new([1,2,3])
 names_ = Array.new(['Abdul', 'Majid', "Adeiza", "Spiderman"])
 puts names_
 
-#using Array
+#using Array keyword
 numbers = Array(20..30)
 puts "#{numbers}"
 
 #Basic operations with Array
+a = Array.new([10, 20, 30, 40])
+puts a.length #same as a.size => length of array
 
+puts a.first #last element
+puts a.last #first element
 
+a.pop #remove last element
+
+a.to_s #convert array to string
+
+a.push(50)
+
+a.delete_at(0) #remove element at index 0
+a.delete(20) #remove 20
